@@ -123,6 +123,10 @@ body {
     border: 2px solid #f1f2f3;
 }
 
+.container__list {
+    width: 100%;
+}
+
 
 .containe__box__listm{
     display: flex;
@@ -130,7 +134,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2vw;
-    gap: 26vw;
+    gap: 24vw;
 
 }
 
@@ -146,8 +150,6 @@ body {
     align-items: center;
     width: 100%;
     gap: 25vw;
-
-
 }
 
 
@@ -214,10 +216,10 @@ img {
 
 .img_album {
     display: flex;
-    vertical-align: middle;
     align-items: center;
-    justify-content: center;
-    gap: 1vw;
+    justify-content: start;
+    gap: 0.5vw;
+    width: 30%;
 }
 
 .style_hover {
@@ -225,8 +227,19 @@ img {
 }
 .style_hover:hover {
     color: #43CEA2;
-    fill: #43CEA2;
     
+}
+
+.text_album {
+    text-align: center;
+}
+
+.title__agrupation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
 }
 
 

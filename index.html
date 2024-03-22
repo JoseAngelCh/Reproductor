@@ -90,16 +90,16 @@
 
     <footer class="footer__controls">
         <div class="album">
-            <img class="albumCaratule" src="/assets/img/Album.jpg" alt="">
+            <img id="current_song_img" class="albumCaratule" src="/assets/img/Album.jpg" alt="">
             <div class="album__info">
-                <p>Beat it</p>
-                <p>Michael Jackson</p>
+                <p id="current_title"></p>
+                <p id="current_author"></p>
             </div>
             <img class="img__size" src="/assets/img/add.svg" alt="">
         </div>
 
         <div class="controls album">
-            <audio controls src="#"></audio>
+            <audio id="control_audio" controls autoplay src="#"></audio>
         </div>
     </footer>
 
