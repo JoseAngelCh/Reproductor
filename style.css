@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    font-size: 1.4vw;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #000;
+    color: #f2f2f2;
+}
+
+
+
+.box__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+}
+
+.box__options {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-right: 0;
+    width: 20%;
+    gap: 2vh;
+}
+.box__options1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    width: 80%;
+    gap: 2vh;
+}
+
+.box__options__box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: #2e2e2e;
+    border: 1px solid #f2f2f218;
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+}
+
+
+.box__options__box1__ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5vh;
+    margin: 2vw;
+    text-align: center;
+}
+
+.img__alings {
+    margin-right: 1vw;
+}
+
+
+.box__options__box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: #2e2e2e;
+    border: 1px solid #f2f2f218;
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+}
+
+.box__options__box2__ul {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 2vw;
+}
+
+.box__options__box3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2e2e2e;
+    border: 1px solid #f2f2f218;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+}
+
+.box__options__box4 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    background-color: #2e2e2e;
+    border: 1px solid #f2f2f218;
+    border-radius: 10px;
+    width: 100%;
+    height: 78%;
+    overflow-y: scroll;
+} 
+
+.box__options__box4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.box__options__box4::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+
+.containe__box__listm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw;
+    gap: 26vw;
+
+}
+
+.album__list {
+    width: 5vw;
+    
+}
+
+.title__artist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 25vw;
+
+
+}
+
+
+.footer__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e2e2e;
+    border: 1px solid #f2f2f218;
+    border-radius: 10px;
+    width: 98%;
+    height: 18vh;
+    padding: 1vh;
+    margin: 1%;
+    margin-top: 0%;
+}
+
+.album {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+    gap: 0.5vw;
+}
+
+.album__info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5vh;
+}
+
+.albumCaratule {
+    width: 7vw;
+}
+
+p,
+a,
+li,
+h1,
+h2,
+h3,
+ul,
+img {
+    text-decoration: none;
+    list-style-type: none;
+    color: #f2f2f2;
+    vertical-align: middle;
+}
+
+.img__size {
+    width: 1.6vw;
+    cursor: pointer;
+}
+
+.search__bar {
+    width: 35vw;
+    height: 3.5vh;
+    opacity: 40%;
+    border: 1px solid #f2f2f218;
+    border-radius: 20px;
+}
+
+.img_album {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+
+

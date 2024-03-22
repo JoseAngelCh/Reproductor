@@ -1,0 +1,221 @@
+notas del curso
+
+tips: no utilizar los blancos o negros solidos
+no el negro mas negro, o el blanco mas blanco.
+
+el blanco mas blanco, solo se utiliza en el fondo de la pagina web
+
+el negro mas negro, ahoga los colores en la pagina.. no utilizar en ningun caso.
+colores oscuros no completamente.
+
+contrastes
+
+rojo-verde y azul-amarillo
+<---------- -------------->
+
+no mezclar, utilizar buen contraste evitar esos errores de seo.
+
+alternativas para el rojo, el color naranja.
+
+rojo: como toma de accion.
+
+no utilizar 3 tipografias en una pagina web..
+2 y es suficuente
+
+si los usuarios ya tienen un modelo mental.. o relacionado
+
+UX: user experience
+UI: user interfaces 
+
+
+texto de lectura en pagina web, 16px a 18px
+
+
+si yo tengo mi texto al centro toda la pagina debe estar centrada, o intercalar.
+
+distancia que deberia dejar entre parrafos, serian 6px o 4 puntos
+
+titulo a parrafo seria la distancia de 16 a 19 pixeles.
+
+entre elementos, 19 pixeles, entre elementos grande 32 pixeles y de alli en adelante 45 pixeles
+
+el reproductor solo necesita cansion actual y lista de reproduccion.
+
+extensiones
+
+la rama principal e todo proyecto se le conoce como 'master' o 'main'
+la rama develop es la rama de desarrollo y constantemente y subiremos cambios a esta rama.
+
+comandos
+
+para inicializar repo - git init  
+para saber el estatus - git status
+para agregar archivos - git add
+para agregar todos los llos archivos - git add .
+para agregar archivos especificos - git add nombre_del_archivo
+para hacer commit - git commit -m "mensaje"
+para remover archivos - git rm --cached nombre_del_archivo
+para ver el historial - git log 
+para ver el historial - git log --oneline
+
+para configurar
+
+git config --global -l
+git config --global user.email "jose.angel2605@outlook.com"
+git config --global user.name "JoseAngelCh"
+
+git commit --> tecla i ---> "agregar comentario" ---> tecla Esc ---> escribir :wq ---> enter
+
+para ver el historial - git log --oneline
+para ver el historial en una linea - git log --oneline
+para crear una rama - git branch nombre_de_la_rama
+para cambiar de rama - git checkout nombre_de_la_rama
+para ver las ramas - git branch
+para eliminar una rama - git branch -D nombre_de_la_rama
+para cambiar entre ramas - git switch nombre_de_la_rama
+para fusionar ramas - git merge nombre_de_la_rama
+para ver los cambios - git diff
+
+para agregar y hacer commit a la vez (add . y commit)
+git commit -am "mensaje"
+
+
+git remote add origin https://github.com/JoseAngelCh/git-test.git
+git remote -v
+git push -u "origin" main
+git push -f (forzar el puch)
+
+header: parte superor de usa seccion.
+    nav: es una navegacion.
+main: contiene el contenido principal de la pagina.
+    aside: seccion lateral.
+    section: es una seccion, son maneras de dividir el contexto de la lectura, por lo general tiene titulo y parrafos.
+    article: es un articulo, es para un contenido fuera de contexto.
+footer: es pie de pagina.
+
+HEAD: es la eqtiqueta que solo contiene metadatos, e informacion no visual.
+META: son los metadatos.
+BODY: es la informacion visual de la pagina web, todo lo que se ve en el viewport.
+
+
+
+para fusionar las ramas primero cambiar la rama desactualizada y hacer el comando "git merge develop"
+
+en este caso hariamos "git switch main"
+una vez en main, "git merge develop" que es la que va adelantada y poner ambas al dia.
+
+
+'git fetch' descarga los cambios de otrs repositorios
+
+'git pull origin develop' para traer los cambios de ese otro lugar y esten sincronizados.
+
+no deben existir mas de un H1 en cada HTML 
+
+actualizar rama: 
+
+
+CSS
+
+* - selector universal - (selector menos especifico) - aqui debemos setear todos los estilos, aqui eliminamos los estilos que trae el navegador por defecto. 
+
+# - selector de id - (selector mas especifico) 
+
+. - selector de clase 
+
+siempre vamos desde menos especificos a mas especificos
+---------------------------------------------------------------------
+sintaxis:
+
+* {
+
+}
+
+* (selector)
+{ } -> agrupa las propiedades que usara el selector.
+----------------------------------------------------------------------
+
+color: - color de letras
+font-size: - tamaño de letras
+font-family: - estilo de letras
+font-weight: - grosor de las letras - (deberia ser de 400)
+test-decpration: - modificar decoracion del texto
+list-style: - estilo de lista modificar
+
+
+
+--------------------------------------------------------------------------
+Medidas utiliadas:
+
+Medidas fijas:
+
+pixeles -               px
+puntos -                pt
+
+EM -                    em          = igual a 16px
+REM -                   rem         = igual a 16px
+
+
+Medidas Responsivas:
+
+Porcentajes -            %
+Referencia de Viewport - vw vh
+
+-----------------------------------------------------------------------------
+
+generalmente se usa las medidas em y rem para texto.
+usar REM (recomendacion)
+cuando trabaje con elementos que no sean texto, hare el uso de medidas Responsivas (%, vh, hw)
+------------------------------------------------------------------------------
+
+BOX MODEL y ESPACIADO DE CAJA
+la parte mas centrica de una caja es su contenido.
+
+el padding es el espacio que existe entre el contenido de la caja y su borde, es decir que el paddine forma parte del contenido de la caja.
+
+el borde es la orilla de la caja.
+
+el margin es el espacio que hay entre el borde de la caja y sus elementos, es decir que el margin empuja a los elementos hermanos.
+
+la procpiedas mas importante
+box-sizing: border-box; - esto se aplica en el selector universal
+
+propiedad backgrounds
+  background-color: - color de fondo
+  background-image: linear-gradient() - gradiente lineal de fondo
+  background-image: radial-gradient() - gradicente radial de fondo
+  background-image: url() - imagen de fondo
+  background-size: - tamaño de fondo
+  background-repeat: no-repeat - repetir imagen, no repetir
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
