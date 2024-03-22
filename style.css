@@ -220,6 +220,16 @@ img {
     gap: 1vw;
 }
 
+.style_hover {
+    transition: all .2s ease-in;
+}
+.style_hover:hover {
+    color: #43CEA2;
+    fill: #43CEA2;
+    
+}
+
+
 
 
 
